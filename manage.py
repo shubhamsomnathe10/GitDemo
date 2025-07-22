@@ -5,7 +5,11 @@ import sys
 
 
 def main():
+<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crudproject2.settings')
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crudproject1.settings')
+>>>>>>> 4fe8976b82833aa605add8cdb52f0ad2e32ca6e4
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
